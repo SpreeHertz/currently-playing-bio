@@ -4,12 +4,17 @@ Allows you to display the currently playing song on your Instagram bio using [in
 
 ## Get Started
 
-Go to `.env.example`
+Go to `config.json`
 
-```
-instagram_username=
-instagram_password=
-spotify_token=
+```json
+{ 
+    "instagram_username": "",
+    "instagram_password": "",
+    "spotify_token": "",
+    "current_bio": ""
+}
 ```
 
-FIll in the above fields. You can obtain a spotify token from the [Spotify Developer Console](https://developer.spotify.com/console/get-users-currently-playing-track)
+FIll in the above fields. You can obtain a spotify token from the [Spotify Developer Console](https://developer.spotify.com/console/get-users-currently-playing-track).
+
+Leave `current_bio` empty if you only want to show the currently playing song.
