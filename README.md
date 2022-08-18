@@ -1,10 +1,10 @@
 # currently-playing-bio
 
-Allows you to display the currently playing song on your Instagram bio using [intsgram-private-api](https://npmjs.org/instgram-private-api).
+Allows you to display the currently playing song on your Instagram bio using [intsgram-private-api](https://npmjs.org/instagram-private-api).
 
 ## Get Started
 
-Go to `config.json`
+Go to `config.json`:
 
 ```json
 { 
