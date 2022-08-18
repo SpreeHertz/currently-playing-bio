@@ -19,4 +19,4 @@ FIll in the above fields. You can obtain a spotify token from the [Spotify Devel
 
 Leave `current_bio` empty if you only want to show the currently playing song.
 
-> Note: Use it at your own risk. Don't abuse the APIs. Your account may get blocked by Instagram.
+> Note: Use it at your own risk. Don't abuse the APIs. Your account may get blocked by Instagram if you do so.
