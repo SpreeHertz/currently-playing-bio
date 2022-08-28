@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const { IgApiClient } = require("instagram-private-api")
 const ig = new IgApiClient()
 require('dotenv').config();
+const ms = require('ms');
 
 const USERNAME = process.env.instagram_username || config.instagram_username;
 const PASSWORD = process.env.instagram_password || config.instagram_password;
@@ -47,4 +48,4 @@ const main = async () => {
     
 }
 
-main();
+setInterval(main, ms('2m'));
