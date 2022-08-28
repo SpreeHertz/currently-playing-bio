@@ -48,4 +48,5 @@ const main = async () => {
     
 }
 
+main()
 setInterval(main, ms('2m'));
