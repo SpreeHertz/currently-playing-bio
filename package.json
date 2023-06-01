@@ -7,7 +7,7 @@
     "dev": "nodemon ."
   },
   "dependencies": {
-    "chalk": "4.0.0",
+    "chalk": "4.1.2",
     "dotenv": "^16.0.1",
     "instagram-private-api": "^1.45.3",
     "ms": "^2.1.3",
