@@ -15,6 +15,6 @@
     "re2": "^1.17.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^3.0.0"
   }
 }
